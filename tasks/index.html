@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <style type="text/css">
+      h1, h2, h3, h4, h5, h6 { line-height: 1.1; }
+      body {
+        font: 14px/1.5 "Lucida", ￼Verdana, sans-serif;
+      }
+      body, html {
+        height: 100%;
+
+        margin: 0;
+        padding: 0;
+        background-color: #EEE;
+      }
+      #container, #sidebar {
+        min-height: 100%;
+        display: inline-block;
+        vertical-align: top;
+      }
+      #container {
+        width: 79%;
+        background-color: white;
+      }
+      #sidebar {
+        width: 20%;
+      }
+      .tasks {
+        padding: 5px;
+      }
+      .task {
+        border-bottom: 1px solid white;  
+      }
+
+      .task.header {
+        text-align: left;
+        color: white;
+        padding: 0;
+        font-weight: 450;
+        border-left: 0;
+        background: #EEE;
+      }
+      .task.header span {
+        font-size: 12px;
+        padding: 8px 0px 8px 13px;
+        display: inline-block;
+        width: 20%;
+        background-color: #CCC;
+      }
+
+      .task div {
+        padding: 14px 10px;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .task div.bigger {
+        border-left: 3px solid #CCC;
+        width: 60%;
+      }
+      .task div.smaller {
+        width: 25%;
+      }
+
+      .high-priority .task.header {
+        background-color: #FCECEC;
+      }
+      .high-priority .task.header span {
+        background-color: #C30;
+      }
+      .high-priority .task div.bigger {
+        border-color: #C30;
+      }
+      .medium-priority .task.header {
+        background-color: #FFF5E0;
+      }
+      .medium-priority .task.header span {
+        background-color: #F3B02A;
+      }
+      .medium-priority .task div.bigger {
+        border-color: #F3B02A;
+      }
+
+      p {
+        margin:0;
+        color: #888;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      b {
+        font-weight: 400;
+        font-size: 16px;
+        color: #444;
+      }
+
+      .task:not(.header):not(:last-child):after {
+        content: "";
+        margin: 1px 3px;
+        border: 0;
+        border-top: 1px solid #DDD;
+        width: 100%;
+        display: block;
+      }
+      .clearing {
+        height: 0;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='container'>
+      <div class='tasks high-priority'>
+        <div class='task header'>
+          <span>high priority</span>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+      </div>
+      <div class='tasks medium-priority'>
+        <div class='task header'>
+          <span>medium priority</span>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+      </div>
+      <div class='tasks normal-priority'>
+        <div class='task header'>
+          <span>normal priority</span>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+        <div class='task'>
+          <div class='bigger'>
+            <p><b>Design Concept</b></p>
+            <p>Amiga Comparation / Corporate Website Redesign</p>
+          </div>
+          <div class='smaller'>
+            <p><b>Tue, Sep 8</b></p>
+            <p>1 day</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='sidebar'>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class='clearing'></div>
+  </body>
+</html>
