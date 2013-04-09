@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #707070;
+}
+
+.navbar {
+	color: white;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+	border-radius: 0;
+	padding: 0 20px;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	color: white;
+}
+.navbar .nav > li > a {
+	padding: 15px 10px;
+}
+
+.navbar .nav > li > a:first {
+	padding-left: 0;
+}
+
+.navbar .avatar {
+	max-height: 50px;
+}
+
+#main {
+	margin-top: 50px;
+	background-color: #FFF;
+}
+
+#content, #sidebar {
+	background-color: white;
+    overflow:auto;
+    height: 100%;
+    padding-top: 30px;
+	padding-left: 30px;
+}
+
+#sidebar {
+	background-color: #FAFAFA;
+	border-left: 1px solid #EBEBEB;
+	padding-right: 30px;
+}
+
+.full-height {
+	min-height: 100% !important;
+}
+.container-fluid {
+    height: 100%;
+    padding: 0;
+}
+
+.columns {
+    height: 100%;   
+}
+
+.top-spaced {
+	margin-top: 50px;
+}
+
+h1 {
+	font-weight: 400;
+}
+h2 {
+	font-size: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px;
+	color: #454545;
+}
+
+.btn {
+	border: 0;
+	border-radius: 0;
+	background-image: none;
+	font-weight: bold;
+	padding: 7px 12px;
+	text-shadow: none;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0;
+	box-shadow: none;
+	padding: 4px 8px;
+	font-size: 13px;
+}
+
+h2 .label {
+	font-size: 22px;
+	line-height: 26px;
+	vertical-align: middle;
+	font-weight: normal;
+	padding: 8px 12px;
+	margin-left: 15px;
+	background-color: #EAEAEA;
+	color: #666;
+}
+
+h3 {
+	color: #666;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 15px 0;
+}
+
+#favorites .span4 {
+	margin-bottom: 40px;
+	border-bottom: 3px solid #EAEAEA;
+}
+
+#favorites ul {
+	margin-bottom: 20px;
+}
+
+#favorites li {
+	margin-bottom: 10px;
+	color: #c1c1c1;
+}
+#favorites li span {
+	display: inline-block;
+	vertical-align: top;
+}
