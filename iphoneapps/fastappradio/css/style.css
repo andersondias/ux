@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+body{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#navbar {
+	background-color: #02A7AD;
+	color: white;
+}
+
+#content {
+	background-color: white;
+}
+
+img#cover {
+	width: 100%;
+}
+
+#music {
+	height: 168px;
+	padding: 0 30px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#music-title {
+	font-family: 'Lato', sans-serif;
+	color: #02A7AD;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#music-details {
+	color: #5B5B5B;
+}
+
+#music-details span {
+	display: block;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+#music-details span.album {
+	font-style: italic;
+}
+
+#current-progress {
+	height: 4px;
+	background-color: #02A7AD;
+}
+
+#total-progress {
+	border-bottom: 1px solid #CCC;
+}
+
+#progress-time {
+	margin: 4px 8px;
+}
+
+#progress-time span.current {
+	color: #00a7ad;
+}
+
+#progress-time span.total {
+	float: right;
+	color: #5B5B5B;
+}
+
+#actions {
+	text-align: center;
+}
+
+#actions img {
+	height: 45px;
+	margin: 0 5px;
+}
+
+#pause {
+	display: none;
+}
